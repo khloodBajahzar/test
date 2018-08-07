@@ -4,37 +4,94 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
-    <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
+<title> Khlood's CV </title>
+<link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
   <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
+      
+      <header>
+          <div class="icon-bar">
+              <a href="index.html" class="active"><img src="imgs/home.png"/></a>
+              <a href="mailto:nay1931416@gmail.com"><img src="imgs/gmail.png"/></a>
+              <a href="https://twitter.com/Nay25N"><img src="imgs/twitter.png"/></a>
+          </div>
+          <br>
+          
+          <div class="header">
+              <img src="imgs/logo.png" style="align:center;"/>
+          </div>
+          
+      </header>
+      
+      <br>
+      <hr>
+      <br>
+      <div class="row">
+          <div class="col-3 menu">
+              <ul>
+                  <a href="index.html"><li>Home</li></a>
+                  <a href="designes.html"><li>Designes</li></a>
+              </ul>
+          </div>
+          
+          <div class="col-5">
+              <p><u>General Information</u></p>
+              <img src="imgs/born.png" />
+              <img src="imgs/female.png"/>
+              <img src="imgs/islam.png"/>
+              <img src="imgs/lan.png"/>
+              <img src="imgs/gradute.png"/>
+              <br>
+              
+              <p><u>Personal Skill Sets</u></p>
+              <img src="imgs/personal.png" alt=""/>
+              <br><br>
+              
+              <p><u>Software Skills</u></p>
+              <img src="imgs/photo.png" alt=""/><br><br>
+              <img src="imgs/ai.png" alt=""/><br><br>
+              <img src="imgs/office.png" alt=""/><br><br>
+              
+              <p><u>Technical Skills</u></p>
+              <img src="imgs/swLang.png" alt=""/>
+              
+              <p><u>History</u></p>
+              <br><br>
+              <img src="imgs/history.png" alt=""/>
+              <br><br>
+          </div>
+          
+          <div class="col-3 right">
+              <div class="aside">
+                  <h2>Languages</h2>
+                  <img src="imgs/arabic.png" alt=""/>
+                  <br><br>
+                  <img src="imgs/english.png" alt=""/>
+                  <br><br>
+                  
+                  <h2>Personal Interests</h2>
+                  <img src="imgs/camera.png" alt=""/>
+                  <img src="imgs/books.png" alt="reading"/>
+                  <img src="imgs/cat.png" alt=""/>
+                  <img src="imgs/airplane.png" alt=""/>
+                  <img src="imgs/edit.png" alt="writing"/>
+              </div>
+          </div>
+          
+      </div>
+      
+      <div class="footer">
+          Copyright @ Khlood. All rights reserved 2018
+      </div>
+      
+      <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+      <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+      
+      <!-- Load our React component. -->
+      <script src="like_button.js"></script>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
